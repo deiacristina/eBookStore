@@ -1,5 +1,6 @@
 # Sprint 1º - Início e Componentes
 
+* Instalação do Bootstrap para ínicio do projeto
 * Cabeçalho
 * Rodapé
 * Cards dos produtos
@@ -27,4 +28,9 @@
 * Imagens e descrição de cada produto
 * Botão saiba mais
 
+
+
+# Criadora - Andréia Cristina Alves
+* Instagram https://www.instagram.com/codedeia/
+* Linkedin https://www.linkedin.com/in/andreiacristina/
 
