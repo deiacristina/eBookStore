@@ -1,4 +1,5 @@
 # eBookStore
+A eBookStore é uma loja virtual de livros 
 
 ## Sprint 1º - Início e Componentes
 * Instalação do Bootstrap para ínicio do projeto
