@@ -14,7 +14,7 @@
 # Sprint 3º - Listagem
 
 * Listagem dos produtos
-* Campo para filtrar os produtos por gênero
+* Campo para filtrar os produtos por categoria
 
 # Sprint 4º - Contato
 
