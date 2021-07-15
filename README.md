@@ -1,18 +1,30 @@
-# 1º Sprint - Home
+# Sprint 1º - Início e Componentes
 
-Rodapé com as informações institucionais sobre a empresa contendo:
-
-* E-mail para contato
-* WhatsApp para contato
-* Produtos
-* Quem somos 
-* Logotipo clicável direcionando para a página principal
+* Cabeçalho
+* Rodapé
+* Cards dos produtos
 
 
-# 2º Sprint - Catálogo dos produtos e criação das páginas
+# Sprint 2º - Componente
 
-Criação do catálogo e páginas contendo:
-* Fotos dos produtos
-* Descrições dos produtos
-* Valores dos produtos
-* 
+* Banner promocional
+
+
+# Sprint 3º - Listagem
+
+* Listagem dos produtos
+* Campo para filtrar os produtos por gênero
+
+# Sprint 4º - Contato
+
+* Seção de contato
+* Inputs para preenchimento dos dados (nome, e-mail, telefone e text-area para mensagem)
+* Botão de enviar
+
+
+# Sprint 5º - Páginas dos produtos
+
+* Imagens e descrição de cada produto
+* Botão saiba mais
+
+
