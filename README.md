@@ -16,11 +16,13 @@ A eBookStore é uma loja virtual de livros
 * Listagem dos produtos
 * Campo para filtrar os produtos por categoria
 
-## Sprint 4º - Contato
-* Seção de contato
-* Inputs para preenchimento dos dados (nome, e-mail, telefone e text-area para mensagem)
-* Botão de enviar
 
+## Sprint 4º - Contato
+* Telefone
+* Celular
+* E-mail
+* Endereço
+ 
 
 ## Sprint 5º - Página de descrição do produto
 * Imagens e descrição de cada produto
