@@ -23,7 +23,7 @@
 * Botão de enviar
 
 
-# Sprint 5º - Páginas dos produtos
+# Sprint 5º - Página de descrição do produto
 
 * Imagens e descrição de cada produto
 * Botão saiba mais
