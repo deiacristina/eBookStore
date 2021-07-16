@@ -24,8 +24,7 @@
 * Telefone
 * Celular
 * E-mail
-* Endereço
- 
+
 
 ## Sprint 5º - Página de detalhamento e instucional - 22/07
 * Página de detalhamento: Imagens e descrição do produto
