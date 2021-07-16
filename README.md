@@ -29,6 +29,7 @@
 
 ## Sprint 5º - Página de descrição do produto - 22/07
 * Imagens e descrição de cada produto
+* Quem somos
 * Botão saiba mais
 
 #  Entrega - 23/07
