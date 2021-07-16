@@ -1,5 +1,8 @@
 # eBookStore
-A eBookStore é uma loja virtual de livros 
+## A eBookStore é uma loja virtual focada em livros digitais para aparelhos mobile, como e-readers, tablets e celulares.
+
+### Projeto organizado pelo [GamaAcademy](https://www.gama.academy/)
+
 
 ## Sprint 1º - Início e Componentes
 * Instalação do Bootstrap para ínicio do projeto
