@@ -27,10 +27,9 @@
 * Endereço
  
 
-## Sprint 5º - Página de descrição do produto - 22/07
-* Imagens e descrição de cada produto
-* Quem somos
-* Botão saiba mais
+## Sprint 5º - Página de detalhamento e instucional - 22/07
+* Página de detalhamento: Imagens e descrição do produto
+* Página institucional: "Quem somos"
 
 #  Entrega - 23/07
 
