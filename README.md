@@ -4,18 +4,18 @@
 ### Primeiro projeto institucional desenvolvido no #XP38 do [GamaAcademy](https://www.gama.academy/)
 
 
-## Sprint 1º - Início e Componentes - 16/07 à 17/07
+## Sprint 1º - Início e Componentes - 17/07
 
 | Descrição da tarefa                            | Estimativa      | Início prévio | Término prévio
 | --- | --- | --- | --- |
-| Instalação do Bootstrap para ínicio do projeto | 30min           | 16 jul 2021   | 16 jul 2021
-| Cabeçalho                                      | 2h              | 16 jul 2021   | 17 jul 2021
+| Instalação do Bootstrap para ínicio do projeto | 30min           | 17 jul 2021   | 17 jul 2021
+| Cabeçalho                                      | 2h              | 17 jul 2021   | 17 jul 2021
 
 ## Sprint 2º - Componente - 18/07
 
 | Descrição da tarefa  | Estimativa      | Início prévio | Término prévio
 | --- | --- | --- | --- |
-| Banner promocional   | 1h30min         | 18 jul 2021   | 18 jul 2021
+| Banner promocional   | 1h30min         | 17 jul 2021   | 18 jul 2021
                                     
 
 ## Sprint 3º - Listagem - 18/07 à 19/07
@@ -24,7 +24,7 @@
 | --- | --- | --- | --- |
 | Listagem dos produtos                          | 3h              | 18 jul 2021   | 19 jul 2021
 | Campo para filtrar os produtos por categoria   | 2h              | 18 jul 2021   | 19 jul 2021
-| Cards dos produtos                             | 2h              | 17 jul 2021   | 19 jul 2021
+| Cards dos produtos                             | 2h              | 18 jul 2021   | 19 jul 2021
 
 ## Sprint 4º - Rodapé - 20/07
 
