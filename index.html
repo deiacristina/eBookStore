@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Import Google Icon Font -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <title>eBookStore</title>
+
+</head>
+
+<nav>
+  <div class="container">
+    <a href="#" class="brand-logo"></a><img src="logos/logo.e-bookstore.svg" width="120px"></li>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="quem-somos.html">Quem somos</a></li>
+      <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </ul>
+  </div>
+</nav>
+
+
+<body>
+
+  <!-- Carousel -->
+
+  <div class="container-fluid">
+    <div id="carouselExampleFade" class="carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="photos/banner-1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="photos/banner-2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="photos/banner-3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <header>
+
+    <!-- Cards -->
+    <div class="container">
+      <div class="row">
+        <!-- para páginas grandes ou extras grandes - 4 produtos por linha
+                 para páginas médias - 3 produtos por linha
+                 para páginas pequenas - 2 produtos por linha
+                 para páginas extra pequenas - 1 produto por linha -->
+
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+          <div class="card titulo-card">
+            <img src="photos/ebook-9.jpg" class="card-img-top" alt="..." width="100%">
+            <div class="card-body">
+              <h6 class="card-subtitle mb-2 text-muted">Emily Brontë</h6>
+              <h5 class="titulo-card">O morro dos ventos uivantes</h5>
+              <div class="valor">
+                <p>
+                  R$19,90
+                </p>
+              </div>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <a href="detalhe-produto.html">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+          <div class="card">
+            <img src="photos/ebook-10.jpg" class="card-img-top" alt="..." width="100%">
+            <div class="card-body">
+              <h6 class="card-subtitle mb-2 text-muted">John Green</h6>
+              <h5 class="titulo-card">A Culpa é das Estrelas</h5>
+              <div class="valor">
+                <p>
+                  R$19,90
+                </p>
+              </div>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <a href="detalhe-produto.html">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+          <div class="card">
+            <img src="photos/ebook-11.jpg" class="card-img-top" alt="..." width="100%">
+            <div class="card-body">
+              <h6 class="card-subtitle mb-2 text-muted">David Levithan e John Green</h6>
+              <h5 class="titulo-card">Will e Will, Um nome, Um destino</h5>
+              <div class="valor">
+                <p>
+                  R$19,90
+                </p>
+              </div>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <a href="detalhe-produto.html">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+          <div class="card">
+            <img src="photos/ebook.jpg" class="card-img-top" alt="..." width="100%">
+            <div class="card-body">
+              <h6 class="card-subtitle mb-2 text-muted">Paulo Vieira</h6>
+              <h5 class="titulo-card">O Poder da Autorresponsabilidade</h5>
+              <div class="valor">
+                <p>
+                  R$19,90
+                </p>
+              </div>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <a href="detalhe-produto.html">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+          <div class="card">
+            <img src="photos/ebook-3.jpg" class="card-img-top" alt="..." width="100%">
+            <div class="card-body">
+              <h6 class="card-subtitle mb-2 text-muted">Carol Dweck</h6>
+              <h5 class="titulo-card">MINDSET - A nova psicologia do sucesso</h5>
+              <div class="valor">
+                <p>
+                  R$19,90
+                </p>
+              </div>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <a href="detalhe-produto.html">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+          <div class="card">
+            <img src="photos/ebook-6.jpg" class="card-img-top" alt="..." width="100%">
+            <div class="card-body">
+              <h6 class="card-subtitle mb-2 text-muted">Mark Manson</h6>
+              <h5 class="titulo-card">A Sutil Arte de Ligar o Foda-se</h5>
+              <div class="valor">
+                <p>
+                  R$19,90
+                </p>
+              </div>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <a href="detalhe-produto.html">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+          <div class="card">
+            <img src="photos/ebook-1.jpg" class="card-img-top" alt="..." width="100%">
+            <div class="card-body">
+              <h6 class="card-subtitle mb-2 text-muted">Isaac Asimov</h6>
+              <h5 class="titulo-card">Eu, Robô</h5>
+              <div class="valor">
+                <p>
+                  R$19,90
+                </p>
+              </div>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <a href="detalhe-produto.html">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+          <div class="card">
+            <img src="photos/ebook-4.jpg" class="card-img-top" alt="..." width="100%">
+            <div class="card-body">
+              <h6 class="card-subtitle mb-2 text-muted">Arthur C. Clarke</h6>
+              <h5 class="titulo-card">2001 - Uma odisseia no espaço</h5>
+              <div class="valor">
+                <p>
+                  R$19,90
+                </p>
+              </div>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <a href="detalhe-produto.html">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+          <div class="card">
+            <img src="photos/ebook-7.jpg" class="card-img-top" alt="..." width="100%">
+            <div class="card-body">
+              <h6 class="card-subtitle mb-2 text-muted">Douglas Adams</h6>
+              <h5 class="titulo-card">O Guia do Mochileiro das Galáxias</h5>
+              <div class="valor">
+                <p>
+                  R$19,90
+                </p>
+              </div>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <a href="detalhe-produto.html">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+          <div class="card">
+            <img src="photos/ebook-2.jpg" class="card-img-top" alt="..." width="100%">
+            <div class="card-body">
+              <h6 class="card-subtitle mb-2 text-muted">Daniel Donda</h6>
+              <h5 class="titulo-card">Guia Prático de Implementação da LGPD</h5>
+              <div class="valor">
+                <p>
+                  R$19,90
+                </p>
+              </div>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <a href="detalhe-produto.html">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+          <div class="card">
+            <img src="photos/ebook-5.jpg" class="card-img-top" alt="..." width="100%">
+            <div class="card-body">
+              <h6 class="card-subtitle mb-2 text-muted">Johnny Long</h6>
+              <h5 class="titulo-card">Google Hacking para Pentest </h5>
+              <div class="valor">
+                <p>
+                  R$19,90
+                </p>
+              </div>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <a href="detalhe-produto.html">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+          <div class="card">
+            <img src="photos/ebook-8.jpg" class="card-img-top" alt="..." width="100%">
+            <div class="card-body">
+              <h6 class="card-subtitle mb-2 text-muted">Alesandro Barreto</h6>
+              <h5 class="titulo-card">Deep Web: Investigação no submundo da internet</h5>
+              <div class="valor">
+                <p>
+                  R$19,90
+                </p>
+              </div>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <a href="detalhe-produto.html">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+
+
+  </header>
+
+
+
+
+  <!-- Footer -->
+  <footer class="page-footer">
+    <div class="container">
+      <img src="logos/logo.e-bookstore.svg" width="200px"></li>
+    </div>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12"></div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Fale Conosco</h5>
+          <ul>
+            <img src="logos/whatsapp.png" width="20px">
+            <li><a class="grey-text text-lighten-3" target="_blank" href="https://wa.me/16996275356">WhatsApp</a></li>
+
+            <img src="logos/instagram.png" width="20px"></li>
+            <li><a class="grey-text text-lighten-3" target="_blank" href="https://instagram.com/codedeia">Instagram</a>
+            </li>
+
+            <img src="logos/email.png" width="20px">
+            <li><a class="grey-text text-lighten-3" target="_blank" href="mailto:adeiacristina@icloud.com">E-Mail</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      © 2021 Todos os direitos reservados
+      <a class="grey-text text-lighten-4 right" href="#!"></a>
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+    </div>
+    </div>
+  </footer>
+</body>
+
+</html>
