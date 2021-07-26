@@ -44,6 +44,7 @@
 #  Entrega - 23/07
 
 ## Criadora - Andréia Cristina Alves
+* Segue o link da página -> https://deiacristina.github.io/eBookStore/
 * Instagram https://www.instagram.com/codedeia/
 * Linkedin https://www.linkedin.com/in/andreiacristina/
 
